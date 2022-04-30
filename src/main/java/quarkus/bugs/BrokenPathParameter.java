@@ -16,7 +16,7 @@ public class BrokenPathParameter {
     @GET
     // @Path("broken-path-parameter/{resource-id:[^a]+") // enabling this breaks the whole application
 	public Response doSomething(@PathParam("resource-id") String resourceId) {
-    	var map = Map.of("key", "value");
+    	var map = Map.of("resource-id", resourceId);
 	    return Response.ok(map).build();
 	}
 }
