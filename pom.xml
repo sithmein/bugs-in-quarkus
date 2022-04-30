@@ -18,6 +18,7 @@
         <dependency>
             <groupId>${quarkus.platform.group-id}</groupId>
             <artifactId>quarkus-resteasy-reactive-jackson</artifactId>
+            <!-- <artifactId>quarkus-resteasy-jackson</artifactId> -->
         </dependency>
         <dependency>
             <groupId>${quarkus.platform.group-id}</groupId>
@@ -32,6 +33,16 @@
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+        	<groupId>io.quarkus</groupId>
+        	<artifactId>quarkus-reactive-routes</artifactId>
+        </dependency>
+        <dependency>
+        	<groupId>org.assertj</groupId>
+        	<artifactId>assertj-core</artifactId>
+        	<version>3.21.0</version>
+        	<scope>test</scope>
         </dependency>
     </dependencies>
 
