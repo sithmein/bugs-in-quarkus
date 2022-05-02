@@ -44,6 +44,10 @@
         	<version>3.21.0</version>
         	<scope>test</scope>
         </dependency>
+        <dependency>
+        	<groupId>org.jboss.resteasy</groupId>
+        	<artifactId>resteasy-multipart-provider</artifactId>
+        </dependency>
     </dependencies>
 
 
