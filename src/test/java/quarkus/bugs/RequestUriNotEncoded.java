@@ -7,8 +7,6 @@ import static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo;
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.wireMockConfig;
 import static org.assertj.core.api.Assertions.assertThat;
 
-import javax.ws.rs.client.ClientBuilder;
-
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -16,6 +14,7 @@ import com.github.tomakehurst.wiremock.WireMockServer;
 import com.github.tomakehurst.wiremock.client.WireMock;
 
 import io.quarkus.test.junit.QuarkusTest;
+import jakarta.ws.rs.client.ClientBuilder;
 
 @QuarkusTest
 class RequestUriNotEncoded {

@@ -3,12 +3,11 @@ package quarkus.bugs;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.Is.is;
 
-import javax.ws.rs.core.HttpHeaders;
-
 import org.junit.jupiter.api.Test;
 
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.http.ContentType;
+import jakarta.ws.rs.core.HttpHeaders;
 
 @QuarkusTest
 class UnexpectedCharsetTest {

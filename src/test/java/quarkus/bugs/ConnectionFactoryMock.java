@@ -1,12 +1,11 @@
 package quarkus.bugs;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.jms.Connection;
-import javax.jms.ConnectionFactory;
-import javax.jms.JMSContext;
-import javax.jms.JMSException;
-
 import io.quarkus.test.Mock;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.jms.Connection;
+import jakarta.jms.ConnectionFactory;
+import jakarta.jms.JMSContext;
+import jakarta.jms.JMSException;
 
 @Mock
 @ApplicationScoped
